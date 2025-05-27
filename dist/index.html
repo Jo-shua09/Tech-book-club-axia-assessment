@@ -4,10 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="../dist/output.css" />
+		<script src="https://kit.fontawesome.com/dc4a396c3d.js" crossorigin="anonymous"></script>
+		<title>Tech Book Club</title>
 	</head>
 	<body>
-		<div class="container-fluid w-full h-full">
-			<div class="hero bg-gradient-to-tr pb-20 from-yellow-50 to-white w-full h-full p-5 container m-auto">
+		<div class="w-full h-full">
+			<div class="hero bg-gradient-to-tr pb-20 from-yellow-50 to-white w-full h-full md:p-16 p-5 container">
 				<header class="flex items-center gap-2 pb-10">
 					<img src="../images/book_logo.png" alt="logo image" class="w-[2rem] h-[2rem] object-cover" />
 					<h2 class="text-2xl capitalize font-semibold">tech book club</h2>
@@ -32,29 +34,57 @@
 							review membership options
 						</button>
 
-						<div class="flex items-center sm:flex-nowrap flex-wrap gap-x-5 pt-10">
+						<div class="flex items-center md:flex-nowrap flex-wrap gap-5 pt-10">
 							<div class="flex items-center">
-								<img src="" alt="person image" class="w-10 h-10 object-cover rounded-full border border-white" />
-								<img src="" alt="person image" class="w-10 h-10 object-cover rounded-full border border-white -ml-3" />
-								<img src="" alt="person image" class="w-10 h-10 object-cover rounded-full border border-white -ml-6" />
+								<img
+									src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600"
+									alt="person image"
+									class="w-10 h-10 object-cover rounded-full border border-white"
+								/>
+								<img
+									src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600"
+									alt="person image"
+									class="w-10 h-10 object-cover rounded-full border border-white -ml-2"
+								/>
+								<img
+									src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600"
+									alt="person image"
+									class="w-10 h-10 object-cover rounded-full border border-white -ml-2"
+								/>
 							</div>
 
-							<div class="flex flex-col space-y-4">
-								<div class=""></div>
+							<div class="flex flex-col space-y-2 items-start">
+								<div class="space-x-3">
+									<i class="fa-solid fa-star text-2xl text-yellow-500"></i>
+									<i class="fa-solid fa-star text-2xl text-yellow-500"></i>
+									<i class="fa-solid fa-star text-2xl text-yellow-500"></i>
+									<i class="fa-solid fa-star text-2xl text-yellow-500"></i>
+									<i class="fa-solid fa-star text-2xl text-yellow-500"></i>
+								</div>
 								<p class="text-xl font-normal text-black/80">200+ developers have joined allready</p>
 							</div>
 						</div>
 					</div>
 
 					<div class="md:flex-1 w-full">
-						<img src="" alt="hero image" class="w-full h-full object-cover rounded-xl" />
+						<img
+							src="https://images.pexels.com/photos/4861342/pexels-photo-4861342.jpeg?auto=compress&cs=tinysrgb&w=600"
+							alt="hero image"
+							class="w-full h-[45rem] object-cover rounded-xl"
+						/>
 					</div>
 				</div>
 			</div>
 
 			<section class="w-full h-full flex flex-col md:gap-28 gap-16 m-auto container mt-32 md:mt-52 p-5">
 				<div class="w-full h-full flex items-center gap-x-20 gap-y-10 md:flex-nowrap flex-wrap">
-					<div class="w-full h-full"><img src="" alt="grow image" class="w-full h-full rounded-xl object-cover" /></div>
+					<div class="w-full h-full">
+						<img
+							src="https://images.pexels.com/photos/4861340/pexels-photo-4861340.jpeg?auto=compress&cs=tinysrgb&w=600"
+							alt="grow image"
+							class="w-full h-[40rem] rounded-xl object-cover"
+						/>
+					</div>
 
 					<div class="w-full h-full space-y-10">
 						<h2 class="md:text-6xl text-5xl font-semibold text-gray-900">
@@ -62,17 +92,17 @@
 							grow together
 						</h2>
 						<ul class="flex flex-col gap-y-6">
-							<li class="space-x-3 md:text-3xl text-2xl font-medium text-gray-400 list-none">
-								icon Monthly curated tech reads selected by industry experts
+							<li class="flex items-center gap-6 md:text-3xl text-2xl font-medium text-gray-600 list-none">
+								<i class="fa-solid fa-check-to-slot"></i> Monthly curated tech reads selected by industry experts
 							</li>
-							<li class="space-x-3 md:text-3xl text-2xl font-medium text-gray-400 list-none">
-								icon Virtual and in-person meetups for deep-dive discussions
+							<li class="flex items-center gap-6 md:text-3xl text-2xl font-medium text-gray-600 list-none">
+								<i class="fa-solid fa-check-to-slot"></i> Virtual and in-person meetups for deep-dive discussions
 							</li>
-							<li class="space-x-3 md:text-3xl text-2xl font-medium text-gray-400 list-none">
-								icon Early access to new tech book releases
+							<li class="flex items-center gap-6 md:text-3xl text-2xl font-medium text-gray-600 list-none">
+								<i class="fa-solid fa-check-to-slot"></i> Early access to new tech book releases
 							</li>
-							<li class="space-x-3 md:text-3xl text-2xl font-medium text-gray-400 list-none">
-								icon Author Q&A sessions with tech thought leaders
+							<li class="flex items-center gap-6 md:text-3xl text-2xl font-medium text-gray-600 list-none">
+								<i class="fa-solid fa-check-to-slot"></i> Author Q&A sessions with tech thought leaders
 							</li>
 						</ul>
 					</div>
@@ -81,13 +111,19 @@
 				<div class="w-full h-full flex items-center gap-x-20 gap-y-10 md:flex-nowrap flex-wrap-reverse">
 					<div class="w-full h-full space-y-10">
 						<h2 class="md:text-6xl text-5xl font-semibold text-gray-900">Not your average book club</h2>
-						<p class="md:text-3xl text-2xl font-medium normal-case text-gray-400">
+						<p class="md:text-3xl text-2xl font-medium normal-case text-gray-600">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, et velit ducimus quasi accusamus odio
 							sit, numquam obcaecati provident, cum adipisci eligendi illum qui earum!
 						</p>
 					</div>
 
-					<div class="w-full h-full"><img src="" alt="grow image" class="w-full h-full rounded-xl object-cover" /></div>
+					<div class="w-full h-full">
+						<img
+							src="https://images.pexels.com/photos/7193782/pexels-photo-7193782.jpeg?auto=compress&cs=tinysrgb&w=600"
+							alt="grow image"
+							class="w-full h-[40rem] rounded-xl object-cover"
+						/>
+					</div>
 				</div>
 			</section>
 
@@ -131,8 +167,12 @@
 							<hr class="w-full h-px border border-gray-300" />
 
 							<ul class="flex flex-col gap-y-6">
-								<li class="space-x-3 md:text-3xl text-2xl font-medium text-gray-700 list-none">icon 1 book/month</li>
-								<li class="space-x-3 md:text-3xl text-2xl font-medium text-gray-700 list-none">icon Online forums</li>
+								<li class="flex items-center gap-6 md:text-3xl text-2xl font-medium text-gray-600 list-none">
+									<i class="fa-solid fa-check-to-slot"></i> 1 book/month
+								</li>
+								<li class="flex items-center gap-6 md:text-3xl text-2xl font-medium text-gray-600 list-none">
+									<i class="fa-solid fa-check-to-slot"></i> Online forums
+								</li>
 							</ul>
 
 							<button
@@ -150,8 +190,12 @@
 							<hr class="w-full h-px border border-gray-300" />
 
 							<ul class="flex flex-col gap-y-6">
-								<li class="space-x-3 md:text-3xl text-2xl font-medium text-gray-700 list-none">icon 2 books/month</li>
-								<li class="space-x-3 md:text-3xl text-2xl font-medium text-gray-700 list-none">icon Virtual meetups</li>
+								<li class="flex items-center gap-6 md:text-3xl text-2xl font-medium text-gray-600 list-none">
+									<i class="fa-solid fa-check-to-slot"></i> 2 books/month
+								</li>
+								<li class="flex items-center gap-6 md:text-3xl text-2xl font-medium text-gray-600 list-none">
+									<i class="fa-solid fa-check-to-slot"></i> Virtual meetups
+								</li>
 							</ul>
 
 							<button
@@ -167,8 +211,12 @@
 							<hr class="w-full h-px border border-gray-300" />
 
 							<ul class="flex flex-col gap-y-6">
-								<li class="space-x-3 md:text-3xl text-2xl font-medium text-gray-700 list-none">Team access</li>
-								<li class="space-x-3 text-3xl font-medium text-gray-700 list-none">Private sessions</li>
+								<li class="space-x-3 md:text-3xl text-2xl font-medium text-gray-700 list-none">
+									<i class="fa-solid fa-check-to-slot"></i> Team access
+								</li>
+								<li class="space-x-3 text-3xl font-medium text-gray-700 list-none">
+									<i class="fa-solid fa-check-to-slot"></i> Private sessions
+								</li>
 							</ul>
 
 							<button
@@ -203,15 +251,33 @@
 							review membership options
 						</button>
 
-						<div class="flex items-center justify-center gap-x-5 m-auto sm:flex-nowrap flex-wrap">
+						<div class="flex items-center sm:flex-nowrap flex-wrap gap-5 justify-center pt-10 m-auto">
 							<div class="flex items-center">
-								<img src="" alt="person image" class="w-10 h-10 object-cover rounded-full border border-white" />
-								<img src="" alt="person image" class="w-10 h-10 object-cover rounded-full border border-white" />
-								<img src="" alt="person image" class="w-10 h-10 object-cover rounded-full border border-white" />
+								<img
+									src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600"
+									alt="person image"
+									class="w-10 h-10 object-cover rounded-full border border-white"
+								/>
+								<img
+									src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600"
+									alt="person image"
+									class="w-10 h-10 object-cover rounded-full border border-white -ml-2"
+								/>
+								<img
+									src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600"
+									alt="person image"
+									class="w-10 h-10 object-cover rounded-full border border-white -ml-2"
+								/>
 							</div>
 
-							<div class="flex flex-col space-y-4">
-								<div class="space-x-4"></div>
+							<div class="flex flex-col space-y-2 md:items-start items-center justify-center">
+								<div class="space-x-3">
+									<i class="fa-solid fa-star text-2xl text-yellow-500"></i>
+									<i class="fa-solid fa-star text-2xl text-yellow-500"></i>
+									<i class="fa-solid fa-star text-2xl text-yellow-500"></i>
+									<i class="fa-solid fa-star text-2xl text-yellow-500"></i>
+									<i class="fa-solid fa-star text-2xl text-yellow-500"></i>
+								</div>
 								<p class="text-xl font-normal">200+ developers have joined allready</p>
 							</div>
 						</div>
@@ -221,7 +287,12 @@
 
 					<div class="w-full flex md:justify-between justify-center gap-8">
 						<p class="md:text-2xl text-xl font-medium">&copy; 2025 - Tech Book Club</p>
-						<div class="space-x-4"></div>
+						<div class="space-x-4">
+							<i class="fa-brands fa-facebook text-2xl text-white"></i>
+							<i class="fa-brands fa-twitter text-2xl text-white"></i>
+							<i class="fa-brands fa-instagram text-2xl text-white"></i>
+							<i class="fa-brands fa-linkedin text-2xl text-white"></i>
+						</div>
 					</div>
 				</div>
 			</footer>
