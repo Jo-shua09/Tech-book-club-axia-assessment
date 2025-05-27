@@ -625,6 +625,14 @@ video {
   margin-top: 6rem;
 }
 
+.-ml-3 {
+  margin-left: -0.75rem;
+}
+
+.-ml-6 {
+  margin-left: -1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -828,6 +836,10 @@ video {
   border-radius: 0.375rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .rounded-t-2xl {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -880,6 +892,11 @@ video {
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
 .bg-yellow-100 {
